@@ -1,0 +1,17 @@
+Class Piece
+	private:
+		int id
+		enum color
+		enum type
+		boolean isCatured
+	public:
+		setCaptured
+		boolean getCaptured
+		
+Class Board
+	private:
+		int[][] board
+	public:
+		setPiece(Piece, x, y)
+		movePiece(Piece, x, y)
+		
